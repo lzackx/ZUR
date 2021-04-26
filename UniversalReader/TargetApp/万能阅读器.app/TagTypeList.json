@@ -1,0 +1,32 @@
+{
+    "myTag_list":
+    [{"type_id":"-1","ltype":"书架","sex":"-1"},
+    {"type_id":"-1","ltype":"热评","sex":"-1"},
+    {"type_id":"-1","ltype":"书单","sex":"-1"}],
+    "recommand_list":
+    [{"type_id":"0","ltype":"玄幻","sex":"0"},
+    {"type_id":"1","ltype":"奇幻","sex":"0"},
+    {"type_id":"2","ltype":"仙侠","sex":"0"},
+    {"type_id":"3","ltype":"武侠","sex":"0"},
+    {"type_id":"4","ltype":"都市","sex":"0"},
+    {"type_id":"5","ltype":"现实","sex":"0"},
+    {"type_id":"6","ltype":"军事","sex":"0"},
+    {"type_id":"7","ltype":"历史","sex":"0"},
+    {"type_id":"8","ltype":"游戏","sex":"0"},
+    {"type_id":"9","ltype":"体育","sex":"0"},
+    {"type_id":"10","ltype":"科幻","sex":"0"},
+    {"type_id":"11","ltype":"灵异","sex":"0"},
+    {"type_id":"12","ltype":"二次元","sex":"0"},
+    {"type_id":"13","ltype":"短篇","sex":"0"},
+    {"type_id":"0","ltype":"N次元","sex":"1"},
+    {"type_id":"1","ltype":"仙侠奇缘","sex":"1"},
+    {"type_id":"2","ltype":"古代言情","sex":"1"},
+    {"type_id":"3","ltype":"悬疑灵异","sex":"1"},
+    {"type_id":"4","ltype":"浪漫青春","sex":"1"},
+    {"type_id":"5","ltype":"游戏竞技","sex":"1"},
+    {"type_id":"6","ltype":"玄幻言情","sex":"1"},
+    {"type_id":"7","ltype":"现代言情","sex":"1"},
+    {"type_id":"8","ltype":"科幻空间","sex":"1"}]
+}
+    
+

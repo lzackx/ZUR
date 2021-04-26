@@ -1,0 +1,785 @@
+{
+  "data" : {
+    "male" : [
+      {
+        "ltype_id" : 0,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "东方玄幻"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "异世大陆"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "王朝争霸"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "高武世界"
+          }
+        ],
+        "ltype_name" : "玄幻",
+        "ltype_desc" : "独特的世界架构，修炼体系设定，历险、升级、强者为尊的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 1,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "剑与魔法"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "历史神话"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "另类幻想"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "史诗奇幻"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "现代魔法"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "黑暗幻想"
+          }
+        ],
+        "ltype_name" : "奇幻",
+        "ltype_desc" : "恢弘的世界观，冒险、魔法之类的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 2,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "修真文明"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "古典仙侠"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "幻想修仙"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "现代修真"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "神话修真"
+          }
+        ],
+        "ltype_name" : "仙侠",
+        "ltype_desc" : "结合中国古典元素，以原创为主的仙侠作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 3,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "传统武侠"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "古武未来"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "国术无双"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "武侠同人"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "武侠幻想"
+          }
+        ],
+        "ltype_name" : "武侠",
+        "ltype_desc" : "将真实或虚构的历史作为背景，书写习武之人、恩怨情仇的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 4,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "商战职场"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "娱乐明星"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "官场沉浮"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "异术超能"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "恩怨情仇"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "都市生活"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "青春校园"
+          }
+        ],
+        "ltype_name" : "都市",
+        "ltype_desc" : "以现代都市为背景，生活为主的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 5,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "成功励志"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "文学艺术"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "爱情婚姻"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "现实百态"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "生活时尚"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "社会乡土"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "青春文学"
+          }
+        ],
+        "ltype_name" : "现实",
+        "ltype_desc" : "结合近代、当代现实背景下的情感、婚姻、家庭的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 6,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "军事战争"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "军旅生涯"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "战争幻想"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "抗战烽火"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "谍战特工"
+          }
+        ],
+        "ltype_name" : "军事",
+        "ltype_desc" : "以军队或军人生涯为主，描述写实或虚构的热血作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 7,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "上古先秦"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "秦汉三国"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "两宋元明"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "两晋隋唐"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "五代十国"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "清史民国"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "历史传记"
+          },
+          {
+            "stype_id" : 7,
+            "stype_name" : "外国历史"
+          },
+          {
+            "stype_id" : 8,
+            "stype_name" : "架空历史"
+          },
+          {
+            "stype_id" : 9,
+            "stype_name" : "民间传说"
+          }
+        ],
+        "ltype_name" : "历史",
+        "ltype_desc" : "从某段历史时期为基础，进行虚构类创作的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 8,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "游戏主播"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "游戏异界"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "游戏系统"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "电子竞技"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "虚拟网游"
+          }
+        ],
+        "ltype_name" : "游戏",
+        "ltype_desc" : "以游戏为主题的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 9,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "体育赛事"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "篮球运动"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "足球运动"
+          }
+        ],
+        "ltype_name" : "体育",
+        "ltype_desc" : "描写篮球、足球等体育运动或赛事的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 10,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "古武机甲"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "时空穿梭"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "星际文明"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "未来世界"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "末世危机"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "超级科技"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "进化变异"
+          }
+        ],
+        "ltype_name" : "科幻",
+        "ltype_desc" : "发展类高科技，构建了新的世界结构的作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 11,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "探险生存"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "奇妙世界"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "侦探推理"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "古今传奇"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "诡秘悬疑"
+          }
+        ],
+        "ltype_name" : "悬疑",
+        "ltype_desc" : "诡秘现象、神秘科学、考古掘宝，展现各种源自生活，却又高于生活的悬疑艺术",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 12,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "原生幻想"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "变身入替"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "搞笑吐槽"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "衍生同人"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "青春日常"
+          }
+        ],
+        "ltype_name" : "二次元",
+        "ltype_desc" : "动漫为背景，构建不同的幻想世界作品",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 13,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "人物传记"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "儿童文学"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "影视剧本"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "生活随笔"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "短篇小说"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "美文游记"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "评论文集"
+          },
+          {
+            "stype_id" : 7,
+            "stype_name" : "诗歌散文"
+          }
+        ],
+        "ltype_name" : "短篇",
+        "ltype_desc" : "短篇小说",
+        "ltype_image" : "icon\/type\/male_1_1.png?time=1591614089"
+      }
+    ],
+    "publish" : [
+
+    ],
+    "female" : [
+      {
+        "ltype_id" : 0,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "同人衍生"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "唯美幻想"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "萌系变身"
+          }
+        ],
+        "ltype_name" : "N次元",
+        "ltype_desc" : "N次元小说",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 1,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "仙侣奇缘"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "武侠情缘"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "远古洪荒"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "古典仙侠"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "现代修真"
+          }
+        ],
+        "ltype_name" : "仙侠奇缘",
+        "ltype_desc" : "结合中国古典元素，描写男女主角之间的爱恨情仇的故事",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 2,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "上古蛮荒"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "古代情缘"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "古典架空"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "女尊王朝"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "宫闱宅斗"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "清穿民国"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "热血江湖"
+          },
+          {
+            "stype_id" : 7,
+            "stype_name" : "穿越奇情"
+          },
+          {
+            "stype_id" : 8,
+            "stype_name" : "经商种田"
+          },
+          {
+            "stype_id" : 9,
+            "stype_name" : "西方时空"
+          }
+        ],
+        "ltype_name" : "古代言情",
+        "ltype_desc" : "古代生活为背景，描写男女主角之间的爱恨情仇的故事",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 3,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "幽冥情缘"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "悬疑探险"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "推理侦探"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "神秘文化"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "恐怖惊悚"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "灵异鬼怪"
+          }
+        ],
+        "ltype_name" : "悬疑灵异",
+        "ltype_desc" : "以悬疑、推理、探险、怪异等为主题的作品",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 4,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "叛逆成长"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "青春疼痛"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "青春纯爱"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "青春校园"
+          }
+        ],
+        "ltype_name" : "浪漫青春",
+        "ltype_desc" : "以青春、校园为主题的作品",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 5,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "体育竞技"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "网游情缘"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "电子竞技"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "游戏异界"
+          }
+        ],
+        "ltype_name" : "游戏竞技",
+        "ltype_desc" : "以游戏为主题的作品",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 6,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "异族恋情"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "异能超术"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "西方奇幻"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "远古神话"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "魔法幻情"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "东方玄幻"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "异世大陆"
+          }
+        ],
+        "ltype_name" : "玄幻言情",
+        "ltype_desc" : "幻想世界为背景，描写男女主角之间的爱情故事",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 7,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "婚恋情缘"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "异国情缘"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "极道江湖"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "民国情缘"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "豪门世家"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "都市异能"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "商战职场"
+          },
+          {
+            "stype_id" : 7,
+            "stype_name" : "都市生活"
+          },
+          {
+            "stype_id" : 8,
+            "stype_name" : "娱乐明星"
+          },
+          {
+            "stype_id" : 9,
+            "stype_name" : "官场沉浮"
+          }
+        ],
+        "ltype_name" : "现代言情",
+        "ltype_desc" : "以现代生活为背景，描写男女主角之间的爱情故事",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 8,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "星际恋歌"
+          },
+          {
+            "stype_id" : 1,
+            "stype_name" : "时空穿梭"
+          },
+          {
+            "stype_id" : 2,
+            "stype_name" : "未来世界"
+          },
+          {
+            "stype_id" : 3,
+            "stype_name" : "古武机甲"
+          },
+          {
+            "stype_id" : 4,
+            "stype_name" : "超级科技"
+          },
+          {
+            "stype_id" : 5,
+            "stype_name" : "进化变异"
+          },
+          {
+            "stype_id" : 6,
+            "stype_name" : "末世危机"
+          }
+        ],
+        "ltype_name" : "科幻空间",
+        "ltype_desc" : "发展类高科技，构建了新的世界结构的作品",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      },
+      {
+        "ltype_id" : 9,
+        "ltype_list" : [
+          {
+            "stype_id" : 0,
+            "stype_name" : "网配快穿"
+          }
+        ],
+        "ltype_name" : "网配快穿",
+        "ltype_desc" : "主角在多个世界、空间、时空中频繁穿越的作品",
+        "ltype_image" : "icon\/type\/female_2_1.png?time=1591614089"
+      }
+    ],
+    "label" : [
+
+    ],
+    "banner" : [
+      {
+        "data" : {
+          "book_id" : 583852,
+          "url_path" : "",
+          "book_list_path" : ""
+        },
+        "title" : "晏少独宠神算妻",
+        "image" : "banner\/202003\/1585232899.jpg",
+        "type" : 1
+      },
+      {
+        "data" : {
+          "book_id" : 136883,
+          "url_path" : "",
+          "book_list_path" : ""
+        },
+        "title" : "幕后恐惧",
+        "image" : "banner\/202003\/1585232829.jpg",
+        "type" : 1
+      }
+    ]
+  },
+  "code" : 1
+}
