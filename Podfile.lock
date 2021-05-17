@@ -1,0 +1,58 @@
+PODS:
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - DoraemonKit/Core (3.0.7):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - DoraemonKit/WithDatabase (3.0.7):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - DoraemonKit/WithGPS (3.0.7):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLoad (3.0.7):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLogger (3.0.7):
+    - CocoaLumberjack
+    - DoraemonKit/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - YYDebugDatabase (2.1.0):
+    - FMDB
+    - GCDWebServer
+
+DEPENDENCIES:
+  - DoraemonKit/Core
+  - DoraemonKit/WithDatabase
+  - DoraemonKit/WithGPS
+  - DoraemonKit/WithLoad
+  - DoraemonKit/WithLogger
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+    - YYDebugDatabase
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  DoraemonKit: 32fb97f3aa82efa133111d193080ca5462cef135
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  YYDebugDatabase: e684a7f79fca2e3673a23347cefb822f911f3124
+
+PODFILE CHECKSUM: 8f369e722590d03fef17bfb6d5647cd01bafd4d4
+
+COCOAPODS: 1.10.1

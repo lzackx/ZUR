@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98EB17F7BBC60A13F29CCE7C /* Pods_UniversalReaderDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */; };
 		A725AEAA263654CD00A6B1C2 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A725AEA9263654CD00A6B1C2 /* MDConfig.plist */; };
 		A725AEB4263654CD00A6B1C2 /* libUniversalReaderDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A725AEB3263654CD00A6B1C2 /* libUniversalReaderDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A725AEB9263654CD00A6B1C2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C0E07EE8A6C9AA447289B80 /* Pods-UniversalReaderDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalReaderDylib.release.xcconfig"; path = "Target Support Files/Pods-UniversalReaderDylib/Pods-UniversalReaderDylib.release.xcconfig"; sourceTree = "<group>"; };
 		A725AEA2263654CD00A6B1C2 /* UniversalReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A725AEA5263654CD00A6B1C2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A725AEA7263654CD00A6B1C2 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-resign.sh"; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 		A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		A725AEBA263654CD00A6B1C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A725AEBC263654CD00A6B1C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A725AEC0263654CD00A6B1C2 /* UniversalReaderDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = UniversalReaderDylib.xm; sourceTree = "<group>"; };
+		A725AEC0263654CD00A6B1C2 /* UniversalReaderDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = UniversalReaderDylib.xm; sourceTree = "<group>"; };
 		A725AEC1263654CD00A6B1C2 /* UniversalReaderDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = UniversalReaderDylib.mm; sourceTree = "<group>"; };
 		A725AEC4263654CD00A6B1C2 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
 		A725AEC6263654CD00A6B1C2 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
@@ -102,8 +104,10 @@
 		A725AEF5263654CD00A6B1C2 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		A725AEF7263654CD00A6B1C2 /* UniversalReaderDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniversalReaderDylib.h; sourceTree = "<group>"; };
 		A725AEF9263654CD00A6B1C2 /* UniversalReaderDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalReaderDylib.m; sourceTree = "<group>"; };
-		A725AF0926365D0500A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UniversalReaderDylib+WNYD_AppDelegate.xm"; sourceTree = "<group>"; };
+		A725AF0926365D0500A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = "UniversalReaderDylib+WNYD_AppDelegate.xm"; sourceTree = "<group>"; };
 		A725AF0B2636644700A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UniversalReaderDylib+WNYD_AppDelegate.mm"; sourceTree = "<group>"; };
+		BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalReaderDylib.debug.xcconfig"; path = "Target Support Files/Pods-UniversalReaderDylib/Pods-UniversalReaderDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalReaderDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,12 +125,22 @@
 				A725AEB9263654CD00A6B1C2 /* JavaScriptCore.framework in Frameworks */,
 				A725AEBD263654CD00A6B1C2 /* UIKit.framework in Frameworks */,
 				A725AEBB263654CD00A6B1C2 /* Foundation.framework in Frameworks */,
+				98EB17F7BBC60A13F29CCE7C /* Pods_UniversalReaderDylib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1442375D863D879A2AF385FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */,
+				7C0E07EE8A6C9AA447289B80 /* Pods-UniversalReaderDylib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A725AE96263654CC00A6B1C2 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +148,7 @@
 				A725AEBE263654CD00A6B1C2 /* UniversalReaderDylib */,
 				A725AEB7263654CD00A6B1C2 /* Frameworks */,
 				A725AEA3263654CD00A6B1C2 /* Products */,
+				1442375D863D879A2AF385FF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +203,7 @@
 				A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */,
 				A725AEBA263654CD00A6B1C2 /* Foundation.framework */,
 				A725AEBC263654CD00A6B1C2 /* UIKit.framework */,
+				CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -331,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A725AEFD263654CD00A6B1C2 /* Build configuration list for PBXNativeTarget "UniversalReaderDylib" */;
 			buildPhases = (
+				F0539D3A86DE8C9D2A67D05D /* [CP] Check Pods Manifest.lock */,
 				A725AEAE263654CD00A6B1C2 /* ShellScript */,
 				A725AEAF263654CD00A6B1C2 /* Sources */,
 				A725AEB0263654CD00A6B1C2 /* Frameworks */,
@@ -442,6 +459,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		F0539D3A86DE8C9D2A67D05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalReaderDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -603,6 +642,7 @@
 		};
 		A725AEFE263654CD00A6B1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
@@ -664,6 +704,7 @@
 		};
 		A725AEFF263654CD00A6B1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0E07EE8A6C9AA447289B80 /* Pods-UniversalReaderDylib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -722,6 +763,7 @@
 		A725AF01263654CD00A6B1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
 				ENABLE_BITCODE = NO;
@@ -737,6 +779,7 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.UniversalReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -744,6 +787,7 @@
 		A725AF02263654CD00A6B1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
 				ENABLE_BITCODE = NO;
@@ -759,6 +803,7 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.UniversalReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

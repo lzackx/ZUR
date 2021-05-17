@@ -1,5 +1,6 @@
 
 #import <UIKit/UIKit.h>
+#import <DoraemonKit/DoraemonManager.h>
 
 %hook WNYD_AppDelegate
 + (unsigned long long)backgroundPlayerID:(unsigned long long)arg1 { %log; unsigned long long r = %orig; NSLog(@" = %llu", r); return r; }
@@ -28,7 +29,11 @@
 - (id)adM { %log; id r = nil; NSLog(@" = %@", r); return r; }
 - (void)addShaperLayerToWindow { %log; %orig; }
 - (void)application:(id)arg1 didFailToRegisterForRemoteNotificationsWithError:(id)arg2 { %log; }
-- (_Bool)application:(id)arg1 didFinishLaunchingWithOptions:(id)arg2 { NSLog(@"ZZZZZZZZ"); %log; _Bool r = %orig; NSLog(@" = %d", r); return r; }
+- (_Bool)application:(id)arg1 didFinishLaunchingWithOptions:(id)arg2 {
+    NSLog(@"==== Zialization ====");
+    [[DoraemonManager shareInstance] install];
+    %log; _Bool r = %orig; NSLog(@" = %d", r); return r;
+}
 - (void)application:(id)arg1 didReceiveLocalNotification:(id)arg2 { %log; %orig; }
 - (void)application:(id)arg1 didReceiveRemoteNotification:(id)arg2 fetchCompletionHandler:(id)arg3 { %log; }
 - (void)application:(id)arg1 didRegisterForRemoteNotificationsWithDeviceToken:(id)arg2 { %log; }
