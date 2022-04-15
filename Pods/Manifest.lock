@@ -1,58 +1,51 @@
 PODS:
-  - CocoaLumberjack (3.7.2):
-    - CocoaLumberjack/Core (= 3.7.2)
-  - CocoaLumberjack/Core (3.7.2)
-  - DoraemonKit/Core (3.0.7):
-    - FMDB
-    - GCDWebServer
-    - GCDWebServer/WebDAV
-    - GCDWebServer/WebUploader
-  - DoraemonKit/WithDatabase (3.0.7):
-    - DoraemonKit/Core
-    - YYDebugDatabase
-  - DoraemonKit/WithGPS (3.0.7):
-    - DoraemonKit/Core
-  - DoraemonKit/WithLoad (3.0.7):
-    - DoraemonKit/Core
-  - DoraemonKit/WithLogger (3.0.7):
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - FBRetainCycleDetector (0.1.4)
+  - Zoo/All (1.1.0):
+    - Zoo/Core
+    - Zoo/GPS
+    - Zoo/Logger
+    - Zoo/MemoryLeaksFinder
+  - Zoo/Core (1.1.0)
+  - Zoo/GPS (1.1.0):
+    - Zoo/Core
+  - Zoo/Logger (1.1.0):
     - CocoaLumberjack
-    - DoraemonKit/Core
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - GCDWebServer (3.5.4):
-    - GCDWebServer/Core (= 3.5.4)
-  - GCDWebServer/Core (3.5.4)
-  - GCDWebServer/WebDAV (3.5.4):
-    - GCDWebServer/Core
-  - GCDWebServer/WebUploader (3.5.4):
-    - GCDWebServer/Core
-  - YYDebugDatabase (2.1.0):
-    - FMDB
-    - GCDWebServer
+    - Zoo/Core
+  - Zoo/MemoryLeaksFinder (1.1.0):
+    - FBRetainCycleDetector
+    - Zoo/Core
 
 DEPENDENCIES:
-  - DoraemonKit/Core
-  - DoraemonKit/WithDatabase
-  - DoraemonKit/WithGPS
-  - DoraemonKit/WithLoad
-  - DoraemonKit/WithLogger
+  - FBRetainCycleDetector (from `https://github.com/facebook/FBRetainCycleDetector.git`)
+  - Zoo/All (from `https://github.com/lzackx/Zoo.git`, tag `1.1.0`)
 
 SPEC REPOS:
   trunk:
     - CocoaLumberjack
-    - DoraemonKit
-    - FMDB
-    - GCDWebServer
-    - YYDebugDatabase
+
+EXTERNAL SOURCES:
+  FBRetainCycleDetector:
+    :git: https://github.com/facebook/FBRetainCycleDetector.git
+  Zoo:
+    :git: https://github.com/lzackx/Zoo.git
+    :tag: 1.1.0
+
+CHECKOUT OPTIONS:
+  FBRetainCycleDetector:
+    :commit: 8280d2337b6b399fdd82f717d4bf8ae0052d9241
+    :git: https://github.com/facebook/FBRetainCycleDetector.git
+  Zoo:
+    :git: https://github.com/lzackx/Zoo.git
+    :tag: 1.1.0
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
-  DoraemonKit: 32fb97f3aa82efa133111d193080ca5462cef135
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
-  YYDebugDatabase: e684a7f79fca2e3673a23347cefb822f911f3124
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  FBRetainCycleDetector: 46daef95c2dfa9be34b53087edf6a8f34e4c749c
+  Zoo: 49dec2a9a63db7bc29815d15ac8dbc6a4ffb3052
 
-PODFILE CHECKSUM: 8f369e722590d03fef17bfb6d5647cd01bafd4d4
+PODFILE CHECKSUM: 33eff288b1e016d7d60c70c82f7a9b661ea0fd78
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

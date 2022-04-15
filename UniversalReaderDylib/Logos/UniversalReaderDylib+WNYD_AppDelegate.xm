@@ -1,6 +1,8 @@
 
 #import <UIKit/UIKit.h>
-#import <DoraemonKit/DoraemonManager.h>
+#import <Zoo/Zoo.h>
+#import <Zoo/ZooManager+Plugins.h>
+#import <Zoo/ZooCacheManager.h>
 
 %hook WNYD_AppDelegate
 + (unsigned long long)backgroundPlayerID:(unsigned long long)arg1 { %log; unsigned long long r = %orig; NSLog(@" = %llu", r); return r; }
@@ -31,7 +33,14 @@
 - (void)application:(id)arg1 didFailToRegisterForRemoteNotificationsWithError:(id)arg2 { %log; }
 - (_Bool)application:(id)arg1 didFinishLaunchingWithOptions:(id)arg2 {
     NSLog(@"==== Zialization ====");
-    [[DoraemonManager shareInstance] install];
+    [[ZooCacheManager sharedInstance] saveCrashSwitch: YES];
+    [[ZooManager shareInstance] addPerformancePlugins];
+    [[ZooManager shareInstance] addUIPlugins];
+    [[ZooManager shareInstance] addLoggerPlugins];
+    [[ZooManager shareInstance] addGPSPlugins];
+    [[ZooManager shareInstance] addPlatformPlugins];
+    [[ZooManager shareInstance] addMemoryLeakPlugins];
+    [[ZooManager shareInstance] install];
     %log; _Bool r = %orig; NSLog(@" = %d", r); return r;
 }
 - (void)application:(id)arg1 didReceiveLocalNotification:(id)arg2 { %log; %orig; }

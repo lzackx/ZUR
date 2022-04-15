@@ -3,9 +3,6 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'UniversalReaderDylib' do
-  pod 'DoraemonKit/Core'
-	pod 'DoraemonKit/WithGPS'
-	pod 'DoraemonKit/WithLoad'
-	pod 'DoraemonKit/WithLogger'
-	pod 'DoraemonKit/WithDatabase'
+  pod 'FBRetainCycleDetector', :git => 'https://github.com/facebook/FBRetainCycleDetector.git'
+  pod 'Zoo', :subspecs => ['All'], :git => 'https://github.com/lzackx/Zoo.git', :tag => '1.1.0'
 end
