@@ -1,0 +1,6 @@
+framework module ZooPerformance {
+  umbrella header "Zoo.Performance-umbrella.h"
+
+  export *
+  module * { export * }
+}

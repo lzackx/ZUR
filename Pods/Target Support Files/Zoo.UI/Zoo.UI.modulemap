@@ -1,0 +1,6 @@
+framework module ZooUI {
+  umbrella header "Zoo.UI-umbrella.h"
+
+  export *
+  module * { export * }
+}

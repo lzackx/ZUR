@@ -1,0 +1,6 @@
+framework module ZooGeneral {
+  umbrella header "Zoo.General-umbrella.h"
+
+  export *
+  module * { export * }
+}

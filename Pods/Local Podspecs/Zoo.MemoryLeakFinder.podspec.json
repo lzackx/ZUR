@@ -1,0 +1,34 @@
+{
+  "name": "Zoo.MemoryLeakFinder",
+  "version": "1.0.0",
+  "summary": "MemoryLeakFinder plugin for Zoo",
+  "description": "MemoryLeakFinder plugin for Zoo",
+  "homepage": "https://github.com/lzackx/Zoo.MemoryLeakFinder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lzackx": "lzackx@lzackx.com"
+  },
+  "source": {
+    "git": "https://github.com/lzackx/Zoo.MemoryLeakFinder.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "module_name": "ZooMemoryLeakFinder",
+  "source_files": "Zoo.MemoryLeakFinder/Classes/**/*",
+  "dependencies": {
+    "Zoo": [
+
+    ],
+    "Zoo.Performance": [
+
+    ],
+    "FBRetainCycleDetector": [
+
+    ]
+  }
+}

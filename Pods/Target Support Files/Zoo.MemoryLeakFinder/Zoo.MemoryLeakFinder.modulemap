@@ -1,0 +1,6 @@
+framework module ZooMemoryLeakFinder {
+  umbrella header "Zoo.MemoryLeakFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

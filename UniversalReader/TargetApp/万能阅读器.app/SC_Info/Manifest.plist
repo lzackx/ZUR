@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/万能阅读器.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/AFNetworking.framework/SC_Info/AFNetworking.sinf</string>
+		<string>Frameworks/CocoaLumberjack.framework/SC_Info/CocoaLumberjack.sinf</string>
+		<string>Frameworks/DACircularProgress.framework/SC_Info/DACircularProgress.sinf</string>
+		<string>Frameworks/FBLPromises.framework/SC_Info/FBLPromises.sinf</string>
+		<string>Frameworks/GoogleUtilities.framework/SC_Info/GoogleUtilities.sinf</string>
+		<string>Frameworks/JGProgressHUD.framework/SC_Info/JGProgressHUD.sinf</string>
+		<string>Frameworks/Lottie.framework/SC_Info/Lottie.sinf</string>
+		<string>Frameworks/MJExtension.framework/SC_Info/MJExtension.sinf</string>
+		<string>Frameworks/MJRefresh.framework/SC_Info/MJRefresh.sinf</string>
+		<string>Frameworks/Masonry.framework/SC_Info/Masonry.sinf</string>
+		<string>Frameworks/ReactiveCocoa.framework/SC_Info/ReactiveCocoa.sinf</string>
+		<string>Frameworks/SDCycleScrollView.framework/SC_Info/SDCycleScrollView.sinf</string>
+		<string>Frameworks/SDWebImage.framework/SC_Info/SDWebImage.sinf</string>
+		<string>Frameworks/SDWebImageWebPCoder.framework/SC_Info/SDWebImageWebPCoder.sinf</string>
+		<string>Frameworks/SVProgressHUD.framework/SC_Info/SVProgressHUD.sinf</string>
+		<string>Frameworks/Shimmer.framework/SC_Info/Shimmer.sinf</string>
+		<string>Frameworks/SwipeTableView.framework/SC_Info/SwipeTableView.sinf</string>
+		<string>Frameworks/UITableView_FDTemplateLayoutCell.framework/SC_Info/UITableView_FDTemplateLayoutCell.sinf</string>
+		<string>Frameworks/WSProgressHUD.framework/SC_Info/WSProgressHUD.sinf</string>
+		<string>Frameworks/YYCache.framework/SC_Info/YYCache.sinf</string>
+		<string>Frameworks/YYCategories.framework/SC_Info/YYCategories.sinf</string>
+		<string>Frameworks/YYModel.framework/SC_Info/YYModel.sinf</string>
+		<string>Frameworks/libwebp.framework/SC_Info/libwebp.sinf</string>
+		<string>Frameworks/nanopb.framework/SC_Info/nanopb.sinf</string>
+		<string>Frameworks/pop.framework/SC_Info/pop.sinf</string>
+		<string>SC_Info/万能阅读器.sinf</string>
+	</array>
+</dict>
+</plist>
