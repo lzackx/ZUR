@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		98EB17F7BBC60A13F29CCE7C /* Pods_UniversalReaderDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */; };
 		A725AEAA263654CD00A6B1C2 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A725AEA9263654CD00A6B1C2 /* MDConfig.plist */; };
-		A725AEB4263654CD00A6B1C2 /* libUniversalReaderDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A725AEB3263654CD00A6B1C2 /* libUniversalReaderDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A725AEB4263654CD00A6B1C2 /* libUniversalReaderDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A725AEB3263654CD00A6B1C2 /* libUniversalReaderDylib.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A725AEB9263654CD00A6B1C2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */; };
 		A725AEBB263654CD00A6B1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A725AEBA263654CD00A6B1C2 /* Foundation.framework */; };
 		A725AEBD263654CD00A6B1C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A725AEBC263654CD00A6B1C2 /* UIKit.framework */; };
@@ -106,6 +106,7 @@
 		A725AEF9263654CD00A6B1C2 /* UniversalReaderDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalReaderDylib.m; sourceTree = "<group>"; };
 		A725AF0926365D0500A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = "UniversalReaderDylib+WNYD_AppDelegate.xm"; sourceTree = "<group>"; };
 		A725AF0B2636644700A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UniversalReaderDylib+WNYD_AppDelegate.mm"; sourceTree = "<group>"; };
+		A7B4026A289CC63000EDF39C /* UniversalReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalReader.entitlements; sourceTree = "<group>"; };
 		BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalReaderDylib.debug.xcconfig"; path = "Target Support Files/Pods-UniversalReaderDylib/Pods-UniversalReaderDylib.debug.xcconfig"; sourceTree = "<group>"; };
 		CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalReaderDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +165,7 @@
 		A725AEA4263654CD00A6B1C2 /* UniversalReader */ = {
 			isa = PBXGroup;
 			children = (
+				A7B4026A289CC63000EDF39C /* UniversalReader.entitlements */,
 				A725AEA5263654CD00A6B1C2 /* icon.png */,
 				A725AEAD263654CD00A6B1C2 /* Info.plist */,
 				A725AEA6263654CD00A6B1C2 /* Scripts */,
@@ -522,6 +524,7 @@
 /* Begin PBXTargetDependency section */
 		A725AEB6263654CD00A6B1C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = A725AEB2263654CD00A6B1C2 /* UniversalReaderDylib */;
 			targetProxy = A725AEB5263654CD00A6B1C2 /* PBXContainerItemProxy */;
 		};
@@ -768,6 +771,7 @@
 		A725AF01263654CD00A6B1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UniversalReader/UniversalReader.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
@@ -780,12 +784,13 @@
 				MONKEYDEV_INSERT_DYLIB = YES;
 				MONKEYDEV_RESTORE_SYMBOL = NO;
 				MONKEYDEV_TARGET_APP = Optional;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.UniversalReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -793,6 +798,7 @@
 		A725AF02263654CD00A6B1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UniversalReader/UniversalReader.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
@@ -811,6 +817,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.UniversalReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
