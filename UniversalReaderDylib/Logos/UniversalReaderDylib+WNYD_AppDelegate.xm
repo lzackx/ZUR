@@ -55,8 +55,6 @@
     NSLog(@"==== Zialization ====");
     
     ZooCacheManager *zooCache = [ZooCacheManager sharedInstance];
-    [zooCache saveNSLogSwitch: YES];
-    [zooCache saveLoggerSwitch: YES];
     [zooCache saveCrashSwitch: YES];
     
     ZooManager *zoo = [ZooManager shareInstance];
@@ -79,7 +77,7 @@
     [zoo addMemoryLeakFinderPlugins];
     [zoo setupMemoryLeakFinderPlugins];
     
-    [zoo install];
+    [zoo installWithStartingPosition:CGPointMake(0, 84)];
     [zoo showZoo];
     
     %log; _Bool r = %orig; NSLog(@" = %d", r); return r;
