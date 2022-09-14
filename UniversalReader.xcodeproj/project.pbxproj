@@ -106,6 +106,7 @@
 		A725AEF9263654CD00A6B1C2 /* UniversalReaderDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalReaderDylib.m; sourceTree = "<group>"; };
 		A725AF0926365D0500A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = "UniversalReaderDylib+WNYD_AppDelegate.xm"; sourceTree = "<group>"; };
 		A725AF0B2636644700A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UniversalReaderDylib+WNYD_AppDelegate.mm"; sourceTree = "<group>"; };
+		A7AA210228D16CE600A8AC49 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "UniversalReaderDylib/stdcpp/3/libstdc++.tbd"; sourceTree = "<group>"; };
 		A7B4026A289CC63000EDF39C /* UniversalReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalReader.entitlements; sourceTree = "<group>"; };
 		BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalReaderDylib.debug.xcconfig"; path = "Target Support Files/Pods-UniversalReaderDylib/Pods-UniversalReaderDylib.debug.xcconfig"; sourceTree = "<group>"; };
 		CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalReaderDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +203,7 @@
 		A725AEB7263654CD00A6B1C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7AA210228D16CE600A8AC49 /* libstdc++.tbd */,
 				A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */,
 				A725AEBA263654CD00A6B1C2 /* Foundation.framework */,
 				A725AEBC263654CD00A6B1C2 /* UIKit.framework */,
@@ -582,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -635,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;
@@ -673,7 +675,7 @@
 					"$(MonkeyDevTheosPath)/vendor/include/**",
 				);
 				INSTALL_PATH = "@executable_path/Frameworks/libUniversalReaderDylib.dylib";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,7 +705,7 @@
 					RevealServer,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
 			};
@@ -738,7 +740,7 @@
 					"$(MonkeyDevTheosPath)/vendor/include/**",
 				);
 				INSTALL_PATH = "@executable_path/Frameworks/libUniversalReaderDylib.dylib";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -765,7 +767,7 @@
 					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -779,7 +781,7 @@
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UniversalReader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_DEFAULT_BUNDLEID = NO;
@@ -807,7 +809,7 @@
 				DEVELOPMENT_TEAM = 75MG4PTYQ8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = UniversalReader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
 				MONKEYDEV_CLASS_DUMP = NO;
 				MONKEYDEV_DEFAULT_BUNDLEID = NO;
