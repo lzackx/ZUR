@@ -1,4 +1,4 @@
-#line 1 "/Users/lzackx/Works/Z/Repositories/ReverseApp/UniversalReader/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"
+#line 1 "/Users/lzackx/Work/Reverse/ReverseApps/ZUR/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"
 
 
 #import <UIKit/UIKit.h>
@@ -39,7 +39,7 @@
 @class CustomViewController; 
 static void (*_logos_meta_orig$_ungrouped$CustomViewController$classMethod)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static void _logos_meta_method$_ungrouped$CustomViewController$classMethod(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$CustomViewController$newMethod$(_LOGOS_SELF_TYPE_NORMAL CustomViewController* _LOGOS_SELF_CONST, SEL, NSString*); static id _logos_method$_ungrouped$CustomViewController$newProperty(_LOGOS_SELF_TYPE_NORMAL CustomViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$CustomViewController$setNewProperty$(_LOGOS_SELF_TYPE_NORMAL CustomViewController* _LOGOS_SELF_CONST, SEL, id); static NSString* (*_logos_orig$_ungrouped$CustomViewController$getMyName)(_LOGOS_SELF_TYPE_NORMAL CustomViewController* _LOGOS_SELF_CONST, SEL); static NSString* _logos_method$_ungrouped$CustomViewController$getMyName(_LOGOS_SELF_TYPE_NORMAL CustomViewController* _LOGOS_SELF_CONST, SEL); 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$CustomViewController(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("CustomViewController"); } return _klass; }
-#line 17 "/Users/lzackx/Works/Z/Repositories/ReverseApp/UniversalReader/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"
+#line 17 "/Users/lzackx/Work/Reverse/ReverseApps/ZUR/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"
 
 
 
@@ -86,4 +86,4 @@ static NSString* _logos_method$_ungrouped$CustomViewController$getMyName(_LOGOS_
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$CustomViewController = objc_getClass("CustomViewController"); Class _logos_metaclass$_ungrouped$CustomViewController = object_getClass(_logos_class$_ungrouped$CustomViewController); { MSHookMessageEx(_logos_metaclass$_ungrouped$CustomViewController, @selector(classMethod), (IMP)&_logos_meta_method$_ungrouped$CustomViewController$classMethod, (IMP*)&_logos_meta_orig$_ungrouped$CustomViewController$classMethod);}{ char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; memcpy(_typeEncoding + i, @encode(NSString*), strlen(@encode(NSString*))); i += strlen(@encode(NSString*)); _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$CustomViewController, @selector(newMethod:), (IMP)&_logos_method$_ungrouped$CustomViewController$newMethod$, _typeEncoding); }{ char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$CustomViewController, @selector(newProperty), (IMP)&_logos_method$_ungrouped$CustomViewController$newProperty, _typeEncoding); }{ char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$CustomViewController, @selector(setNewProperty:), (IMP)&_logos_method$_ungrouped$CustomViewController$setNewProperty$, _typeEncoding); }{ MSHookMessageEx(_logos_class$_ungrouped$CustomViewController, @selector(getMyName), (IMP)&_logos_method$_ungrouped$CustomViewController$getMyName, (IMP*)&_logos_orig$_ungrouped$CustomViewController$getMyName);}} }
-#line 61 "/Users/lzackx/Works/Z/Repositories/ReverseApp/UniversalReader/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"
+#line 61 "/Users/lzackx/Work/Reverse/ReverseApps/ZUR/UniversalReaderDylib/Logos/UniversalReaderDylib.xm"

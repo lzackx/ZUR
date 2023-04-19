@@ -43,7 +43,7 @@
 - (void)setVideoID:(NSString *)VideoID { %log; }
 - (NSString *)VideoID { %log; NSString * r = @""; NSLog(@" = %@", r); return r; }
 - (void)WNYD_BecomeActive { %log; }
-- (void)WNYD_GetAppConfigInfo { %log; %orig; }
+- (void)WNYD_GetAppConfigInfo { %log; /*%orig;*/ }
 - (void)WNYD_reloadUser { %log; %orig; }
 - (void)WNYD_setupXHLaunchAdWithStyle:(long long)arg1 { %log; }
 - (void)WNYD_slashADShowOrClose:(_Bool)arg1 { %log; arg1 = 0; %orig; }
@@ -225,4 +225,18 @@
 - (NSString *)description { %log; NSString * r = %orig; NSLog(@" = %@", r); return r; }
 - (unsigned long long )hash { %log; unsigned long long  r = %orig; NSLog(@" = %llu", r); return r; }
 - (Class )superclass { %log; Class  r = %orig; NSLog(@" = %@", r); return r; }
+%end
+
+
+%hook WNYD_NavigationController
+
+- (void)pushViewController:(id)arg1 animated:(_Bool)arg2 {
+    %log;
+    if ([arg1 isKindOfClass:NSClassFromString(@"WNYD_OtherWebViewController")] &&
+        [[arg1 valueForKey:@"ADUrl"] isEqualToString:@"https://wnydq.com/"]) {
+        return;
+    }
+    %orig;
+}
+
 %end

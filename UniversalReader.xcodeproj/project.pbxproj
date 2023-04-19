@@ -62,6 +62,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A757FF5329EFEA9400D4AF4A /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -106,7 +116,7 @@
 		A725AEF9263654CD00A6B1C2 /* UniversalReaderDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniversalReaderDylib.m; sourceTree = "<group>"; };
 		A725AF0926365D0500A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = "UniversalReaderDylib+WNYD_AppDelegate.xm"; sourceTree = "<group>"; };
 		A725AF0B2636644700A6B1C2 /* UniversalReaderDylib+WNYD_AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UniversalReaderDylib+WNYD_AppDelegate.mm"; sourceTree = "<group>"; };
-		A7AA210228D16CE600A8AC49 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "UniversalReaderDylib/stdcpp/3/libstdc++.tbd"; sourceTree = "<group>"; };
+		A757FF5429EFEABA00D4AF4A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "UniversalReaderDylib/stdcpp/2/libstdc++.tbd"; sourceTree = "<group>"; };
 		A7B4026A289CC63000EDF39C /* UniversalReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalReader.entitlements; sourceTree = "<group>"; };
 		BC046B77164B771F55D481E5 /* Pods-UniversalReaderDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalReaderDylib.debug.xcconfig"; path = "Target Support Files/Pods-UniversalReaderDylib/Pods-UniversalReaderDylib.debug.xcconfig"; sourceTree = "<group>"; };
 		CF8BFAC67A9128185D918540 /* Pods_UniversalReaderDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalReaderDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,7 +213,7 @@
 		A725AEB7263654CD00A6B1C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7AA210228D16CE600A8AC49 /* libstdc++.tbd */,
+				A757FF5429EFEABA00D4AF4A /* libstdc++.tbd */,
 				A725AEB8263654CD00A6B1C2 /* JavaScriptCore.framework */,
 				A725AEBA263654CD00A6B1C2 /* Foundation.framework */,
 				A725AEBC263654CD00A6B1C2 /* UIKit.framework */,
@@ -356,6 +366,7 @@
 				A725AEAF263654CD00A6B1C2 /* Sources */,
 				A725AEB0263654CD00A6B1C2 /* Frameworks */,
 				A725AEB1263654CD00A6B1C2 /* Headers */,
+				A757FF5329EFEA9400D4AF4A /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -584,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -637,7 +648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;
@@ -685,6 +696,8 @@
 					"$(inherited)",
 					"$(MonkeyDevPath)/Frameworks",
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)/UniversalReaderDylib/stdcpp/1",
+					"$(PROJECT_DIR)/UniversalReaderDylib/stdcpp/2",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
@@ -750,6 +763,8 @@
 					"$(inherited)",
 					"$(MonkeyDevPath)/Frameworks",
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)/UniversalReaderDylib/stdcpp/1",
+					"$(PROJECT_DIR)/UniversalReaderDylib/stdcpp/2",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
